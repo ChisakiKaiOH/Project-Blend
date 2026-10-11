@@ -10,7 +10,7 @@
 
 | Data | Lezione | Modalità | Voto | Note |
 |---|---|---|---|---|
-| | | | | |
+| 2026-10-11 | L01 Interfaccia e navigazione | in corso | — | Dispensa e materiali pronti; attesa consegna autonoma |
 
 ## Difficoltà ricorrenti
 
