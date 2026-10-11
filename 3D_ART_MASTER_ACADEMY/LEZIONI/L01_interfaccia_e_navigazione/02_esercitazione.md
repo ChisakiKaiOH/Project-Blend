@@ -27,14 +27,14 @@ Per ogni oggetto: cliccalo, premi `N`, scheda **Item** → **Transform**, scrivi
 | Cono | -2 | 0 | 1 |
 | Cilindro | 0 | 0 | 1.5 |
 | Sfera | 2 | 0 | 1 |
-| Toro | 4 | 0 | 1 |
+| Toro | 4 | 0 | 1.25 |
 
 **Risultato atteso:** in vista Top gli oggetti sono allineati in fila lungo l'asse X (rosso).
 
 ### A3. Ruota (10 min)
 Con la **sidebar** o con la tastiera:
 - **Cono:** `R`, `X`, `180`, `Enter` → capovolto, punta verso il basso.
-- **Toro:** `R`, `X`, `90`, `Enter` → in piedi, come una ruota vista di lato.
+- **Toro:** `R`, `X`, `90`, `Enter` → in piedi, come una ruota vista di lato. In piedi il suo raggio esterno è 1,25 m: per questo Z = 1.25 lo fa poggiare sul pavimento.
 
 **Se ruoti dalla parte sbagliata** (cambia solo il segno) il risultato in questa lezione non cambia: va bene.
 

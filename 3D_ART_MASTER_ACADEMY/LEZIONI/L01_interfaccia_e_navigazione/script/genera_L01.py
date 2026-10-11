@@ -19,7 +19,7 @@ LAYOUT = {
     "A": {  # guidata: fila lungo X
         "Cubo": ((-4, 0, 1), (0, 0, 0), (1, 1, 1)), "Cono": ((-2, 0, 1), (180, 0, 0), (1, 1, 1)),
         "Cilindro": ((0, 0, 1.5), (0, 0, 0), (0.5, 0.5, 1.5)), "Sfera": ((2, 0, 1), (0, 0, 0), (1, 1, 1)),
-        "Toro": ((4, 0, 1), (90, 0, 0), (1, 1, 1))},
+        "Toro": ((4, 0, 1.25), (90, 0, 0), (1, 1, 1))},
     "B": {  # autonoma: fila lungo Y, ordine, rotazioni e scale diversi
         "Toro": ((0, -4, 0.25), (0, 0, 0), (1, 1, 1)), "Sfera": ((0, -2, 0.5), (0, 0, 0), (0.5, 0.5, 0.5)),
         "Cilindro": ((0, 0, 0.5), (0, 0, 0), (1, 1, 0.5)), "Cono": ((0, 2, 1), (0, 0, 0), (1, 1, 1)),
@@ -28,7 +28,7 @@ LAYOUT = {
 # C = disposizione B con due rotazioni (verifica del comando R, nessuna immagine di riferimento)
 LAYOUT["C"] = dict(LAYOUT["B"])
 LAYOUT["C"]["Cono"] = ((0, 2, 1), (180, 0, 0), (1, 1, 1))
-LAYOUT["C"]["Toro"] = ((0, -4, 1), (90, 0, 0), (1, 1, 1))
+LAYOUT["C"]["Toro"] = ((0, -4, 1.25), (90, 0, 0), (1, 1, 1))
 VISTE = {  # layout: [(nome file, posizione camera, rotazione gradi, nascondi pavimento)]
     "A": [("L01_A_fronte.png", (0, -15, 1.5), (90, 0, 0), True), ("L01_A_alto.png", (0, 0, 15), (0, 0, 0), False)],
     "B": [("L01_B_destra.png", (15, 0, 1.5), (90, 0, 90), True), ("L01_B_alto.png", (0, 0, 15), (0, 0, 90), False)],
