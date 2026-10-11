@@ -19,7 +19,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 
 - [x] Verificato ambiente di lavoro del tutor (vedi sotto)
 - [x] Struttura cartelle creata
-- [x] Tuo computer: Windows, Blender 5.2 (patch da confermare), preferenza Eevee
+- [x] Tuo computer: Windows, Blender **5.0.1**, preferenza Eevee
 - [ ] Hardware del tuo computer (RAM, scheda video)
 - [ ] Stampante / tecnologia (FDM o resina) — serve dalla Fase 6, non ora
 - [ ] Decisione su come usare Blender (vedi `README` / risposta al tutor)
@@ -29,7 +29,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | Cosa | Esito |
 |---|---|
 | Terminale e filesystem | ✅ Linux, 4 core, 15 GB RAM, nessuna GPU |
-| Blender | ✅ 5.2.2 LTS in `/opt/blender` (checksum SHA-256 verificato), comando `blender` |
+| Blender | ✅ **5.0.1** (la tua versione) in `/opt/blender-5.0.1`, comando `blender`; in più 5.2.2 LTS come `blender-5.2.2`. Checksum SHA-256 verificati |
 | Python | ✅ 3.13 di sistema (numpy, Pillow); Python di Blender 3.13 con API `bpy` funzionante |
 | Slicer, MeshLab, FreeCAD | ❌ non installati |
 | Aprire/analizzare `.blend` in background | ✅ testato (avvio e API) |
@@ -37,3 +37,5 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | Render **Eevee** in background | ❌ fallisce: manca `libEGL.so.1`. Si risolve installando le librerie grafiche Mesa (chiesta conferma) |
 
 Il tutor lavora su una macchina remota, **diversa dal tuo computer**: non vede il tuo schermo. Per correggerti serve che tu carichi i file (o screenshot) nel repository.
+
+**Compatibilità file:** un `.blend` salvato con una versione più recente (es. 5.2) può non aprirsi bene nella 5.0.1. I file didattici del corso sono sempre generati con la 5.0.1.
