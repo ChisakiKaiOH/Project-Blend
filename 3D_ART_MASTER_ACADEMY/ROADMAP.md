@@ -19,7 +19,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 
 - [x] Verificato ambiente di lavoro del tutor (vedi sotto)
 - [x] Struttura cartelle creata
-- [ ] Sistema operativo e versione di Blender **sul tuo computer**
+- [x] Tuo computer: Windows, Blender 5.2 (patch da confermare), preferenza Eevee
 - [ ] Hardware del tuo computer (RAM, scheda video)
 - [ ] Stampante / tecnologia (FDM o resina) — serve dalla Fase 6, non ora
 - [ ] Decisione su come usare Blender (vedi `README` / risposta al tutor)
@@ -29,9 +29,11 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | Cosa | Esito |
 |---|---|
 | Terminale e filesystem | ✅ Linux, 4 core, 15 GB RAM, nessuna GPU |
-| Blender | ❌ non installato |
-| Python | ✅ 3.13 (con numpy e Pillow); `bpy` non presente |
+| Blender | ✅ 5.2.2 LTS in `/opt/blender` (checksum SHA-256 verificato), comando `blender` |
+| Python | ✅ 3.13 di sistema (numpy, Pillow); Python di Blender 3.13 con API `bpy` funzionante |
 | Slicer, MeshLab, FreeCAD | ❌ non installati |
-| Aprire i tuoi `.blend`, fare render e screenshot | ⏳ possibile **solo dopo** l'installazione di Blender qui (render solo CPU, lento ma fattibile per verifiche) |
+| Aprire/analizzare `.blend` in background | ✅ testato (avvio e API) |
+| Render Cycles su CPU | ✅ testato (immagine 320x240 generata) |
+| Render **Eevee** in background | ❌ fallisce: manca `libEGL.so.1`. Si risolve installando le librerie grafiche Mesa (chiesta conferma) |
 
 Il tutor lavora su una macchina remota, **diversa dal tuo computer**: non vede il tuo schermo. Per correggerti serve che tu carichi i file (o screenshot) nel repository.
