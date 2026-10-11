@@ -20,7 +20,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 - [x] Verificato ambiente di lavoro del tutor (vedi sotto)
 - [x] Struttura cartelle creata
 - [x] Tuo computer: Windows, Blender **5.0.1**, preferenza Eevee
-- [ ] Hardware del tuo computer (RAM, scheda video)
+- [x] Hardware: portatile con RTX 2070 Max-Q; secondo PC con RTX 5070 (RAM da indicare, non urgente)
 - [ ] Stampante / tecnologia (FDM o resina) — serve dalla Fase 6, non ora
 - [ ] Decisione su come usare Blender (vedi `README` / risposta al tutor)
 
@@ -34,7 +34,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | Slicer, MeshLab, FreeCAD | ❌ non installati |
 | Aprire/analizzare `.blend` in background | ✅ testato (avvio e API) |
 | Render Cycles su CPU | ✅ testato (immagine 320x240 generata) |
-| Render **Eevee** in background | ❌ fallisce: manca `libEGL.so.1`. Si risolve installando le librerie grafiche Mesa (chiesta conferma) |
+| Render **Eevee** in background | ✅ testato dopo installazione di Mesa/EGL (render software su CPU: lento, ok per verifiche; gli avvisi `EGL_BAD_MATCH` sono innocui). Non rappresenta le prestazioni del tuo PC |
 
 Il tutor lavora su una macchina remota, **diversa dal tuo computer**: non vede il tuo schermo. Per correggerti serve che tu carichi i file (o screenshot) nel repository.
 
