@@ -55,7 +55,7 @@ Il risultato deve assomigliare a `materiali/L01_A_fronte.png` (vista Front) e `L
 
 ## Parte B — Modalità autonoma (prova di superamento)
 
-**Attenzione:** questa è una disposizione **diversa** dalla Parte A (altro asse, altro ordine, altre rotazioni e scale). Non puoi ricopiare i numeri della guidata.
+**Attenzione:** questa è una disposizione **diversa** dalla Parte A (altro asse, altro ordine, altre altezze e scale). Non puoi ricopiare i numeri della guidata.
 
 **Consegna:** apri di nuovo `L01_start.blend` e salvalo come `consegne/L01_autonoma_v01.blend`. Ricostruisci la disposizione mostrata nelle due immagini:
 - `materiali/L01_B_destra.png`: vista **Right** (`Numpad 3` o `View → Viewpoint → Right`), ortografica. A sinistra c'è il Toro, a destra il Cubo.
@@ -67,17 +67,28 @@ Il risultato deve assomigliare a `materiali/L01_A_fronte.png` (vista Front) e `L
 - tutti poggiano sul pavimento (Z = 0) e sono centrati su X = 0;
 - l'ordine lungo Y, dal valore più basso al più alto, è quello delle immagini (da sinistra a destra).
 
-**Cosa devi ricavare tu:** posizioni Z, rotazioni e scale. Aiutati con la griglia della viewport (1 m per quadretto), con **Dimensions** nella Sidebar e confrontando le vedute.
+**Cosa devi ricavare tu:** posizioni Z e scale (la B non richiede rotazioni: vedi Parte C). Aiutati con la griglia della viewport (1 m per quadretto), con **Dimensions** nella Sidebar e confrontando le vedute.
 
 **Non devi:** rinominare, eliminare o aggiungere oggetti (se ne aggiungi, segnalalo).
 
 **Consegna:** carica nel repository `consegne/L01_autonoma_v01.blend` (e le versioni successive) e scrivimi "consegna L01".
 
+## Parte C — Verifica delle rotazioni (10 min)
+
+La Parte B non usa il comando `R`. Con questa prova breve lo verifichiamo.
+
+1. Apri il file della Parte B che hai consegnato e salvalo come `consegne/L01_rotazioni_v01.blend`.
+2. **Cono:** capovolgilo di 180° attorno all'asse X, in modo che la punta guardi in basso. Non cambiare la sua posizione.
+3. **Toro:** mettilo "in piedi", come una ruota vista di lato (rotazione di 90° attorno a X), e **alzalo** in modo che poggi sul pavimento (controlla la Location Z da Front).
+4. Carica il file in `consegne/` e scrivimi "consegna rotazioni L01". Lo controllo con `script/verifica_L01.py -- C`.
+
+Il tutor non ti dà i valori: ricavali con `R`, l'asse e il numero, oppure dalla Sidebar (Item → Transform → Rotation).
+
 ### Criteri di superamento
 | Criterio | Peso | Come lo verifico |
 |---|---|---|
 | Posizioni corrette (tolleranza 15 cm) | 40% | Script `script/verifica_L01.py -- B` (geometria reale) |
-| Rotazioni corrette (cono capovolto, toro in piedi) | 25% | Script |
+| Rotazioni corrette (richieste nella Parte C: nella B nessun oggetto è ruotato) | 25% | Script `-- C` |
 | Scale corrette (cilindro) | 15% | Script |
 | Scena ordinata (nomi originali, nessun oggetto di troppo) | 10% | Outliner |
 | Salvataggio versionato (`_v01`, `_v02`...) | 10% | Nome dei file |

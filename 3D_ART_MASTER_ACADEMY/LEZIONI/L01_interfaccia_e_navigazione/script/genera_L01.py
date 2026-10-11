@@ -1,7 +1,7 @@
 """Genera i materiali della Lezione 1 (Blender 5.0.1).
 Uso:  blender -b --factory-startup --python genera_L01.py -- <cartella_output> <cartella_json>
 Crea in <cartella_output>: L01_start.blend, L01_A_fronte.png, L01_A_alto.png, L01_B_destra.png, L01_B_alto.png
-Crea in <cartella_json>:  L01_target_A.json, L01_target_B.json  (valori attesi per verifica_L01.py)
+Crea in <cartella_json>:  L01_target_A.json, L01_target_B.json, L01_target_C.json  (valori attesi per verifica_L01.py)
 La soluzione NON viene salvata nel repository: serve solo a calcolare le misure.
 """
 import bpy, sys, os, math, json
@@ -25,6 +25,10 @@ LAYOUT = {
         "Cilindro": ((0, 0, 0.5), (0, 0, 0), (1, 1, 0.5)), "Cono": ((0, 2, 1), (0, 0, 0), (1, 1, 1)),
         "Cubo": ((0, 4, 2), (0, 0, 0), (1, 1, 2))},
 }
+# C = disposizione B con due rotazioni (verifica del comando R, nessuna immagine di riferimento)
+LAYOUT["C"] = dict(LAYOUT["B"])
+LAYOUT["C"]["Cono"] = ((0, 2, 1), (180, 0, 0), (1, 1, 1))
+LAYOUT["C"]["Toro"] = ((0, -4, 1), (90, 0, 0), (1, 1, 1))
 VISTE = {  # layout: [(nome file, posizione camera, rotazione gradi, nascondi pavimento)]
     "A": [("L01_A_fronte.png", (0, -15, 1.5), (90, 0, 0), True), ("L01_A_alto.png", (0, 0, 15), (0, 0, 0), False)],
     "B": [("L01_B_destra.png", (15, 0, 1.5), (90, 0, 90), True), ("L01_B_alto.png", (0, 0, 15), (0, 0, 90), False)],
@@ -70,7 +74,7 @@ for key, lay in LAYOUT.items():
     json.dump({n: misure(bpy.data.objects[n]) for n in lay}, open(os.path.join(jdir, f"L01_target_{key}.json"), "w"), indent=1)
     sc = bpy.context.scene; sc.render.engine = 'BLENDER_EEVEE'; sc.render.resolution_x = 1000; sc.render.resolution_y = 500
     cam = bpy.data.objects["Camera"]; cam.data.type = 'ORTHO'; cam.data.ortho_scale = 11
-    for fn, loc, rot, hide in VISTE[key]:
+    for fn, loc, rot, hide in VISTE.get(key, []):
         cam.location = loc; cam.rotation_euler = [math.radians(a) for a in rot]
         bpy.data.objects["Pavimento"].hide_render = hide
         sc.render.filepath = os.path.join(out, fn); bpy.ops.render.render(write_still=True)

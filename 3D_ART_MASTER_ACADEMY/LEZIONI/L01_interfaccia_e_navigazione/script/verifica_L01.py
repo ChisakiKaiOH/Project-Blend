@@ -1,8 +1,8 @@
 """Verifica la consegna della Lezione 1 (Blender 5.0.1). NON modifica il file.
-Uso:  blender -b --factory-startup <file.blend> --python verifica_L01.py -- <A|B>
-  A = disposizione della parte guidata, B = prova autonoma (default B)
+Uso:  blender -b --factory-startup <file.blend> --python verifica_L01.py -- <A|B|C>
+  A = parte guidata, B = prova autonoma (default B), C = verifica delle rotazioni
 Confronta la geometria reale nello spazio mondo (non gli angoli Euler): rotazioni diverse
-che producono lo stesso risultato sono accettate. Valori attesi: SCRIPT_BLENDER/L01_target_<A|B>.json
+che producono lo stesso risultato sono accettate. Valori attesi: SCRIPT_BLENDER/L01_target_<A|B|C>.json
 """
 import bpy, sys, os, json
 from mathutils import Vector
