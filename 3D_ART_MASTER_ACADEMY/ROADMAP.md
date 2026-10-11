@@ -14,6 +14,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | 5 | Personaggio completo: scheda, riferimenti, blockout, scultura, materiali, presentazione | Personaggio finito | ⬜ |
 | 6 | Stampa 3D: FDM vs resina, spessori, manifold, hollowing, incastri, slicer | Miniatura verificata nello slicer | ⬜ |
 | 7 | Progetti integrati | Progetto con criteri di accettazione | ⬜ |
+| 8 | Produzione SH-Print: tirature limitate, controllo qualità, post-produzione, pittura, packaging, licenze, personaggio originale vendibile | Prototipo vendibile + scheda di produzione | ⬜ |
 
 ## Fase 0 — checklist
 
@@ -21,7 +22,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 - [x] Struttura cartelle creata
 - [x] Tuo computer: Windows, Blender **5.0.1**, preferenza Eevee
 - [x] Hardware: portatile con RTX 2070 Max-Q; secondo PC con RTX 5070 (RAM da indicare, non urgente)
-- [ ] Stampante / tecnologia (FDM o resina) — serve dalla Fase 6, non ora
+- [ ] Stampante, slicer e resine in uso — da affrontare dopo, come indicato dall'utente (serve per la Fase 6)
 - [ ] Decisione su come usare Blender (vedi `README` / risposta al tutor)
 
 ## Capacità reali del tutor in questo ambiente (verificate l'11/10/2026)

@@ -2,6 +2,16 @@
 
 Laboratorio di formazione personale: da principiante assoluto a modellatore, scultore e preparatore di stampa 3D autonomo, con Blender.
 
+## Obiettivo reale: SH-Print
+
+Azienda di stampa 3D artigianale: figure uniche e a tiratura limitata, non produzione di massa. Crescita futura con acquisizione di licenze dei marchi.
+
+Regole su proprietà intellettuale:
+- Gli esercizi possono usare personaggi famosi **solo per apprendimento privato**: non si vendono, non si pubblicano, non si mettono online (nemmeno su marketplace o social come "fan art in vendita").
+- I file di allenamento con personaggi protetti restano in `PROGETTI/_STUDIO_PRIVATO/`.
+- Le figure destinate alla vendita useranno personaggi originali oppure marchi **con licenza scritta**.
+- Il corso include una parte su licenze, tirature limitate e documentazione del progetto. Non sono un consulente legale: per le licenze serve un avvocato esperto di proprietà intellettuale.
+
 ## Come funziona
 
 1. Il tutor (Claude) prepara una **dispensa** per ogni lezione in `DISPENSE/`.
