@@ -12,6 +12,7 @@
 | Data | Lezione | Modalità | Voto | Note |
 |---|---|---|---|---|
 | 2026-10-11 | L01 Interfaccia e navigazione | L01 completata: autonoma B e Parte C superate | 10/10 | Posizioni, scale e rotazioni esatte; versionamento v01-v03 corretto. Nota: il riferimento del Toro nella Parte C/guidata era sbagliato (tutor), corretto |
+| 2026-10-11 | L02 Edit Mode e modellazione base | in corso | — | Dispensa e materiali pronti; attesa consegna |
 
 ## Difficoltà ricorrenti
 

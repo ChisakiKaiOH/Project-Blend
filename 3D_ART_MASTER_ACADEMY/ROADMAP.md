@@ -7,7 +7,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | Fase | Contenuto | Prova finale | Stato |
 |---|---|---|---|
 | 0 | Laboratorio: ambiente, Blender installato, cartelle | Blender si avvia e il primo file è salvato | 🟨 |
-| 1 | Fondamenti: interfaccia, navigazione, trasformazioni, Edit Mode, extrude/inset/bevel/loop cut, salvataggio | Piccolo oggetto completo, salvato e presentato | ⬜ |
+| 1 | Fondamenti: interfaccia, navigazione, trasformazioni, Edit Mode, extrude/inset/bevel/loop cut, salvataggio | Piccolo oggetto completo, salvato e presentato | 🟨 L01 ✅ · L02 in corso |
 | 2 | Modellazione poligonale: hard surface, Mirror/Array/Solidify/Subdivision, normali, topologia, unità | 3 oggetti di difficoltà crescente a misure reali | ⬜ |
 | 3 | Materiali e rendering: PBR, luci a tre punti, HDRI, camera, Cycles/Eevee, denoise | Render di prodotto valutato | ⬜ |
 | 4 | Sculpting organico: volumi primari, silhouette, proporzioni, anatomia, dettagli, retopology | Busto/creatura base | ⬜ |
