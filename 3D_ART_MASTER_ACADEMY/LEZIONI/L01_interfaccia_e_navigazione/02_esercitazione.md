@@ -1,10 +1,10 @@
 # Esercitazione L01 — Disporre cinque forme nello spazio
 
 **Livello:** 1 (principiante) · **Tempo indicativo:** 45–60 min per la guidata, 20–30 per l'autonoma
-**Strumenti:** Blender 5.0.1, `MATERIALI_DIDATTICI/L01/L01_start.blend`
-**Dispensa di riferimento:** `DISPENSE/L01_interfaccia_e_navigazione.md`
+**Strumenti:** Blender 5.0.1, `materiali/L01_start.blend`
+**Dispensa di riferimento:** `01_dispensa.md`
 
-Apri `L01_start.blend` e **salvalo subito come `FILE_BLEND/L01_guidata_v01.blend`** (File → Save As). Non lavorare sull'originale.
+Apri `L01_start.blend` e **salvalo subito come `consegne/L01_guidata_v01.blend`** (File → Save As). Non lavorare sull'originale.
 
 Nella scena ci sono cinque oggetti sparsi a terra: **Cubo, Cono, Cilindro, Sfera, Toro** (di default sono tutti dritti, scala 1).
 
@@ -49,7 +49,7 @@ Seleziona il **Cilindro**: `S`, `Z`, `1.5`, `Enter` (diventa alto 3 m). Poi `S`,
 3. Fai un render veloce di controllo: `F12` mostra il risultato (non serve salvarlo).
 
 ### Controllo A
-Il risultato deve assomigliare a `MATERIALI_DIDATTICI/L01/L01_A_fronte.png` (vista Front) e `L01_A_alto.png` (vista Top), con Perspective/Orthographic su ortografica.
+Il risultato deve assomigliare a `materiali/L01_A_fronte.png` (vista Front) e `L01_A_alto.png` (vista Top), con Perspective/Orthographic su ortografica.
 
 ---
 
@@ -57,9 +57,9 @@ Il risultato deve assomigliare a `MATERIALI_DIDATTICI/L01/L01_A_fronte.png` (vis
 
 **Attenzione:** questa è una disposizione **diversa** dalla Parte A (altro asse, altro ordine, altre rotazioni e scale). Non puoi ricopiare i numeri della guidata.
 
-**Consegna:** apri di nuovo `L01_start.blend` e salvalo come `FILE_BLEND/L01_autonoma_v01.blend`. Ricostruisci la disposizione mostrata nelle due immagini:
-- `MATERIALI_DIDATTICI/L01/L01_B_destra.png`: vista **Right** (`Numpad 3` o `View → Viewpoint → Right`), ortografica. A sinistra c'è il Toro, a destra il Cubo.
-- `MATERIALI_DIDATTICI/L01/L01_B_alto.png`: vista **Top** ruotata di 90° (solo per leggere meglio: la fila corre da sinistra a destra).
+**Consegna:** apri di nuovo `L01_start.blend` e salvalo come `consegne/L01_autonoma_v01.blend`. Ricostruisci la disposizione mostrata nelle due immagini:
+- `materiali/L01_B_destra.png`: vista **Right** (`Numpad 3` o `View → Viewpoint → Right`), ortografica. A sinistra c'è il Toro, a destra il Cubo.
+- `materiali/L01_B_alto.png`: vista **Top** ruotata di 90° (solo per leggere meglio: la fila corre da sinistra a destra).
 
 **Cosa ti dico:**
 - gli oggetti sono i cinque di sempre, con i nomi originali;
@@ -71,12 +71,12 @@ Il risultato deve assomigliare a `MATERIALI_DIDATTICI/L01/L01_A_fronte.png` (vis
 
 **Non devi:** rinominare, eliminare o aggiungere oggetti (se ne aggiungi, segnalalo).
 
-**Consegna:** carica nel repository `FILE_BLEND/L01_autonoma_v01.blend` (e le versioni successive) e scrivimi "consegna L01".
+**Consegna:** carica nel repository `consegne/L01_autonoma_v01.blend` (e le versioni successive) e scrivimi "consegna L01".
 
 ### Criteri di superamento
 | Criterio | Peso | Come lo verifico |
 |---|---|---|
-| Posizioni corrette (tolleranza 15 cm) | 40% | Script `SCRIPT_BLENDER/verifica_L01.py -- B` (geometria reale) |
+| Posizioni corrette (tolleranza 15 cm) | 40% | Script `script/verifica_L01.py -- B` (geometria reale) |
 | Rotazioni corrette (cono capovolto, toro in piedi) | 25% | Script |
 | Scale corrette (cilindro) | 15% | Script |
 | Scena ordinata (nomi originali, nessun oggetto di troppo) | 10% | Outliner |

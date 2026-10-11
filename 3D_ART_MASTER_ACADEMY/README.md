@@ -14,24 +14,33 @@ Regole su proprietà intellettuale:
 
 ## Come funziona
 
-1. Il tutor (Claude) prepara una **dispensa** per ogni lezione in `DISPENSE/`.
-2. Ogni lezione ha una **modalità guidata** (passo per passo) e una **autonoma** (solo consegna), in `ESERCITAZIONI/`.
-3. Tu lavori in Blender e salvi i file in `FILE_BLEND/` (mai sovrascrivere gli originali: usa `nome_v01.blend`, `nome_v02.blend`...).
+1. Il tutor (Claude) prepara per ogni lezione una cartella in `LEZIONI/` con la dispensa.
+2. Ogni lezione ha una **modalità guidata** (passo per passo) e una **autonoma** (solo consegna) in `02_esercitazione.md`.
+3. Tu lavori in Blender e salvi i file nella cartella `consegne/` della lezione (mai sovrascrivere gli originali: usa `nome_v01.blend`, `nome_v02.blend`...).
 4. Mi consegni il risultato (file `.blend`, render o screenshot). Lo correggo con voti 0–10 motivati.
 5. Una competenza è segnata "acquisita" in `PROGRESSI.md` **solo dopo una prova pratica superata**, non dopo la lettura.
 
 ## Struttura
 
+Ogni lezione ha **una sola cartella** in `LEZIONI/` con tutto il necessario:
+
+```
+LEZIONI/L01_interfaccia_e_navigazione/
+  01_dispensa.md        teoria, comandi, procedure, checklist
+  02_esercitazione.md   parte guidata + prova autonoma + criteri
+  03_soluzioni.md       risposte di ripasso (da leggere dopo)
+  materiali/            file di partenza e immagini di riferimento
+  script/               script di generazione e di verifica
+  consegne/             i TUOI file .blend e render di questa lezione
+```
+
 | Cartella | Contenuto |
 |---|---|
-| `DISPENSE/` | Manuali di lezione (teoria + procedura + checklist) |
-| `LEZIONI/` | Piani di lezione e verifiche dei prerequisiti |
-| `ESERCITAZIONI/` | Consegne guidate e autonome |
-| `MATERIALI_DIDATTICI/` | File di partenza, scene di esempio, mesh con errori da riparare |
-| `RIFERIMENTI/` | Immagini e tavole di riferimento (con indicazione della licenza) |
-| `PROGETTI/` | Progetti integrati |
-| `FILE_BLEND/` | I tuoi file Blender |
-| `SCRIPT_BLENDER/` | Script Python per analisi, scene, esportazioni |
+| `LEZIONI/` | Una cartella per ogni lezione (vedi sopra) |
+| `RIFERIMENTI/` | Immagini e tavole di riferimento (con licenza indicata) |
+| `PROGETTI/` | Progetti integrati (`_STUDIO_PRIVATO/` per i personaggi protetti) |
+| `FILE_BLEND/` | Tuoi file liberi, non legati a una lezione |
+| `SCRIPT_BLENDER/` | Script generali riutilizzabili (analisi, esportazione) |
 | `RENDER/` | Immagini finali e di verifica |
 | `ANALISI_MODELLI/` | Report di analisi dei tuoi `.blend` |
 | `STAMPA_3D/` | Modelli e verifiche per la stampa |

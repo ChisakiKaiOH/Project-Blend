@@ -143,7 +143,7 @@ Passa il mouse sulla viewport, seleziona un oggetto e usa:
 
 ## 8. Salvare e annullare
 
-- **Save:** `Ctrl` + `S`. Prima volta: scegli cartella e nome. Usa `FILE_BLEND/nome_v01.blend`.
+- **Save:** `Ctrl` + `S`. Prima volta: scegli cartella e nome. Per le lezioni salva nella cartella `consegne/` di questa lezione (es. `consegne/L01_guidata_v01.blend`).
 - **Salva con nome nuovo:** `Ctrl` + `Shift` + `S` (Save As). Ogni volta che superi una tappa importante, salva come `_v02`, `_v03`... Così se sbagli puoi tornare indietro.
 - **Undo:** `Ctrl` + `Z`. **Redo:** `Ctrl` + `Shift` + `Z`. Cronologia completa: `Edit → Undo History`.
 - Blender conserva di default **una copia di sicurezza** `nomefile.blend1` (opzione Save Versions = 1, verificata): se il file si rovina, rinomina il `.blend1` in `.blend`.
@@ -162,7 +162,7 @@ Passa il mouse sulla viewport, seleziona un oggetto e usa:
 
 ## 10. Esercizio guidato e autonomo
 
-Vedi `ESERCITAZIONI/L01_esercitazione.md`. File: `MATERIALI_DIDATTICI/L01/`.
+Vedi `02_esercitazione.md` (stessa cartella). Materiali in `materiali/`.
 
 ## 11. Checklist di verifica
 
@@ -185,8 +185,8 @@ Vedi `ESERCITAZIONI/L01_esercitazione.md`. File: `MATERIALI_DIDATTICI/L01/`.
 6. Cosa succede se premi `Esc` mentre stai muovendo un oggetto con `G`?
 7. Perché conviene salvare `nome_v02.blend` e non sovrascrivere sempre lo stesso file?
 
-Le risposte sono in `DISPENSE/L01_soluzioni.md`: leggile **dopo** aver risposto.
+Le risposte sono in `03_soluzioni.md`: leggile **dopo** aver risposto.
 
 ## 13. Criteri di valutazione della lezione
 
-Vedi `ESERCITAZIONI/L01_esercitazione.md`. Una competenza è acquisita solo se supera la prova pratica autonoma.
+Vedi `02_esercitazione.md`. Una competenza è acquisita solo se supera la prova pratica autonoma.
