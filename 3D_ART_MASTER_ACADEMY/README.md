@@ -26,8 +26,8 @@ Ogni lezione ha **una sola cartella** in `LEZIONI/` con tutto il necessario:
 
 ```
 LEZIONI/L01_interfaccia_e_navigazione/
-  01_dispensa.md        teoria, comandi, procedure, checklist
-  02_esercitazione.md   parte guidata + prova autonoma + criteri
+  01_dispensa.md/.pdf        teoria, comandi, procedure, checklist
+  02_esercitazione.md/.pdf   parte guidata + prova autonoma + criteri
   03_soluzioni.md       risposte di ripasso (da leggere dopo)
   materiali/            file di partenza e immagini di riferimento
   script/               script di generazione e di verifica
@@ -36,7 +36,7 @@ LEZIONI/L01_interfaccia_e_navigazione/
 
 | Cartella | Contenuto |
 |---|---|
-| `LEZIONI/` | Una cartella per ogni lezione (vedi sopra) |
+| `LEZIONI/` | Una cartella per ogni lezione (vedi sopra). `_strumenti/crea_pdf.sh` converte i `.md` in PDF |
 | `RIFERIMENTI/` | Immagini e tavole di riferimento (con licenza indicata) |
 | `PROGETTI/` | Progetti integrati (`_STUDIO_PRIVATO/` per i personaggi protetti) |
 | `FILE_BLEND/` | Tuoi file liberi, non legati a una lezione |
