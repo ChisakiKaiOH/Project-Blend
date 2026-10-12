@@ -10,11 +10,25 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | 1 | Fondamenti: interfaccia, navigazione, trasformazioni, Edit Mode, extrude/inset/bevel/loop cut, salvataggio | Piccolo oggetto completo, salvato e presentato | 🟨 L01 ✅ · L02 in corso |
 | 2 | Modellazione poligonale: hard surface, Mirror/Array/Solidify/Subdivision, normali, topologia, unità | 3 oggetti di difficoltà crescente a misure reali | ⬜ |
 | 3 | Materiali e rendering: PBR, luci a tre punti, HDRI, camera, Cycles/Eevee, denoise | Render di prodotto valutato | ⬜ |
-| 4 | Sculpting organico: volumi primari, silhouette, proporzioni, anatomia, dettagli, retopology | Busto/creatura base | ⬜ |
-| 5 | Personaggio completo: scheda, riferimenti, blockout, scultura, materiali, presentazione | Personaggio finito | ⬜ |
+| 4 | Organico, due metodi in parallelo: **box modeling in Edit Mode** (Subdivision Surface, Mirror, modifica proporzionale) e **Sculpt Mode** (volumi primari, silhouette, proporzioni, anatomia, dettagli), più retopology. Scala di personaggi in 5 livelli (vedi sotto) | Livelli 1–2 consegnati con entrambi i metodi | ⬜ |
+| 5 | Personaggio completo: scheda, riferimenti, blockout, scultura, materiali, presentazione. Livelli 3–5 della scala, metodo a scelta motivata | Personaggio finito | ⬜ |
 | 6 | Stampa 3D: FDM vs resina, spessori, manifold, hollowing, incastri, slicer | Miniatura verificata nello slicer | ⬜ |
 | 7 | Progetti integrati | Progetto con criteri di accettazione | ⬜ |
 | 8 | Produzione SH-Print: tirature limitate, controllo qualità, post-produzione, pittura, packaging, licenze, personaggio originale vendibile | Prototipo vendibile + scheda di produzione | ⬜ |
+
+## Fase 4–5 — scala dei personaggi (dal più semplice al più complesso)
+
+Ogni livello si costruisce con **entrambi i metodi** (Edit Mode e Sculpt) finché lo richiedono i livelli 1–2; dal livello 3 scegli tu il metodo e motivi la scelta. Si passa al livello successivo solo con la prova pratica superata.
+
+| Livello | Soggetto tipo | Cosa si impara |
+|---|---|---|
+| 1 | Forma stilizzata semplice (mascotte, "blob" con occhi e arti) | Volumi primari, silhouette, simmetria, differenza tra i due metodi |
+| 2 | Animale stilizzato (a 4 zampe o uccello) | Proporzioni, articolazioni semplici, estrusione di arti, densità della mesh |
+| 3 | Umanoide stilizzato (chibi / cartoon) intero | Corpo intero, mani e piedi semplificati, vestiti come volumi, pose neutre |
+| 4 | Creatura con anatomia (corna, artigli, muscolatura) | Anatomia, volumi secondari, dettagli di superficie, retopology |
+| 5 | Personaggio realistico (busto, poi figura intera) | Cranio e volto, mani e piedi realistici, abbigliamento e accessori, preparazione per la stampa |
+
+Per i personaggi protetti da marchio valgono le regole del `README` (solo studio privato).
 
 ## Fase 0 — checklist
 
