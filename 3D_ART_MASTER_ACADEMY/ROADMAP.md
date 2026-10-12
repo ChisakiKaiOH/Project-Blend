@@ -16,6 +16,84 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | 7 | Progetti integrati | Progetto con criteri di accettazione | ⬜ |
 | 8 | Produzione SH-Print: tirature limitate, controllo qualità, post-produzione, pittura, packaging, licenze, personaggio originale vendibile | Prototipo vendibile + scheda di produzione | ⬜ |
 
+## Piano provvisorio delle lezioni
+
+**Provvisorio:** numerazione e argomenti si adattano ai tuoi risultati. Se una competenza non è acquisita, si aggiungono lezioni di recupero prima di proseguire. Le lezioni oltre la L02 non esistono ancora: le preparo una alla volta, verificando i comandi sulla Blender 5.0.1.
+
+Stato: ✅ superata · 📘 materiali pronti · ⬜ da preparare
+
+### Fase 1 — Fondamenti
+
+| N. | Argomento | Stato |
+|---|---|---|
+| L01 | Interfaccia, navigazione, selezione, G/R/S, salvataggio | ✅ |
+| L02 | Edit Mode, Extrude/Inset/Loop Cut/Bevel, Apply Scale, mesh chiusa | 📘 |
+| L03 | Collezioni, gerarchie, unità, riferimenti, salvataggio e backup; piccolo oggetto completo presentato | ⬜ |
+
+### Fase 2 — Modellazione poligonale
+
+| N. | Argomento | Stato |
+|---|---|---|
+| L04 | Modificatori Mirror, Array, Solidify | ⬜ |
+| L05 | Subdivision Surface, controllo degli spigoli | ⬜ |
+| L06 | Normali e shading | ⬜ |
+| L07 | Topologia pulita: quad, triangoli, poli, flusso degli spigoli | ⬜ |
+| L08 | Misure reali, precisione dimensionale, applicazione dei modificatori | ⬜ |
+| L09–L10 | Progetti hard surface a difficoltà crescente, a misure reali | ⬜ |
+
+### Fase 3 — Materiali e rendering
+
+| N. | Argomento | Stato |
+|---|---|---|
+| L11 | Materiali, sistema a nodi, principi PBR | ⬜ |
+| L12 | Illuminazione a tre punti, HDRI | ⬜ |
+| L13 | Camera, focale, composizione | ⬜ |
+| L14 | Eevee: impostazioni, qualità, output | ⬜ |
+| L15 | Cycles per confronto, rumore e denoising | ⬜ |
+| L16 | Progetto: render di prodotto | ⬜ |
+
+### Fase 4 — Organico, due metodi
+
+| N. | Argomento | Stato |
+|---|---|---|
+| L17 | Box modeling organico in Edit Mode: Subdivision, Mirror, modifica proporzionale | ⬜ |
+| L18 | Sculpt Mode: pennelli, raggio e intensità, simmetria, densità (Voxel Remesh, Dyntopo, Multires) | ⬜ |
+| L19 | Livello 1 (forma stilizzata) con entrambi i metodi | ⬜ |
+| L20 | Livello 2 (animale stilizzato) con entrambi i metodi | ⬜ |
+| L21 | Retopology | ⬜ |
+
+### Fase 5 — Personaggio completo
+
+| N. | Argomento | Stato |
+|---|---|---|
+| L22 | Livello 3: umanoide stilizzato, proporzioni e corpo intero | ⬜ |
+| L23 | Mani e piedi | ⬜ |
+| L24 | Vestiti, accessori e armature come volumi | ⬜ |
+| L25 | Livello 4: creatura con anatomia, volumi secondari, dettagli | ⬜ |
+| L26 | Livello 5: cranio e volto, busto realistico | ⬜ |
+| L27 | Personaggio finale: scheda, riferimenti, materiali, presentazione | ⬜ |
+
+### Fase 6 — Stampa 3D
+Dipende da **stampante, slicer e resine** che mi indicherai: non posso fissare valori prima.
+
+| N. | Argomento | Stato |
+|---|---|---|
+| L28 | FDM e resina: differenze, unità, spessori minimi | ⬜ |
+| L29 | Analisi mesh per la stampa: manifold, STL e 3MF | ⬜ |
+| L30 | Hollowing, drenaggio, supporti, orientamento | ⬜ |
+| L31 | Parti separate, perni, incastri, tolleranze | ⬜ |
+| L32 | Slicer e profili per la tua stampante | ⬜ |
+| L33 | Prima stampa di prova e analisi dei difetti | ⬜ |
+
+### Fasi 7 e 8 — Progetti e produzione SH-Print
+
+| Argomento | Stato |
+|---|---|
+| Progetti integrati con criteri di accettazione (modellazione, materiali, render e stampa) | ⬜ |
+| Produzione artigianale: tirature limitate, controllo qualità, post-produzione, pittura, imballaggio | ⬜ |
+| Licenze e proprietà intellettuale (informazioni generali, non consulenza legale) | ⬜ |
+| Personaggio originale vendibile e scheda di produzione | ⬜ |
+
 ## Fase 4–5 — scala dei personaggi (dal più semplice al più complesso)
 
 Ogni livello si costruisce con **entrambi i metodi** (Edit Mode e Sculpt) finché lo richiedono i livelli 1–2; dal livello 3 scegli tu il metodo e motivi la scelta. Si passa al livello successivo solo con la prova pratica superata.
