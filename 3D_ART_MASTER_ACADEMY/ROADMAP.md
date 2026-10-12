@@ -94,6 +94,48 @@ Dipende da **stampante, slicer e resine** che mi indicherai: non posso fissare v
 | Licenze e proprietà intellettuale (informazioni generali, non consulenza legale) | ⬜ |
 | Personaggio originale vendibile e scheda di produzione | ⬜ |
 
+## Moduli di ampliamento (richiesti il 12/10/2026)
+
+**Provvisori**, come il resto del piano. Non copio i contenuti di corsi altrui (compresi quelli di Skyup Academy, di cui non conosco il programma verificato): costruisco le lezioni su tecniche professionali standard e sulla documentazione ufficiale di Blender 5.0.1. Se mi mandi l'elenco degli argomenti di un corso che hai seguito, li confronto con questo piano.
+
+Stato: ⬜ da preparare
+
+### Modulo A — Rendering fotorealistico (dopo la Fase 3)
+| Argomento | Stato |
+|---|---|
+| Materiali realistici: metallo, pietra, tessuto, plastica, resina, pelle | ⬜ |
+| Illuminazione da studio fotografico e cinematografica | ⬜ |
+| Profondità di campo, composizione, post-produzione base | ⬜ |
+| Render di un personaggio e di un prodotto con valutazione | ⬜ |
+
+### Modulo B — Anime e rendering non fotorealistico (dopo il Modulo A)
+| Argomento | Stato |
+|---|---|
+| Toon shading e controllo delle ombre | ⬜ |
+| Linee di contorno (outline) | ⬜ |
+| Modellare per l'anime: viso, capelli, proporzioni stilizzate | ⬜ |
+| Illuminazione e composizione in stile anime | ⬜ |
+
+### Modulo C — Environment (dopo il Modulo A)
+| Argomento | Stato |
+|---|---|
+| Blockout di ambienti e scala | ⬜ |
+| Kit modulari ed elementi ripetuti | ⬜ |
+| Vegetazione, terreno e distribuzione di oggetti | ⬜ |
+| Illuminazione, atmosfera e composizione dell'ambiente | ⬜ |
+
+### Modulo D — Accessori e maschere (dopo la Fase 4)
+| Argomento | Stato |
+|---|---|
+| Accessori e props: forma, scala, materiali | ⬜ |
+| Maschere: costruzione sulla forma del volto | ⬜ |
+| **Capi indossabili**: misure del corpo, vestibilità, comfort, ventilazione, visibilità, sicurezza | ⬜ |
+| Dividere un modello grande per la stampa, incastri e assemblaggio | ⬜ |
+| Finitura: levigatura, primer, pittura | ⬜ |
+
+### Progetto finale del Modulo D: maschera di Overhaul (uso personale)
+Scheda in `PROGETTI/_STUDIO_PRIVATO/Overhaul_maschera/SCHEDA.md`. Personaggio protetto da copyright: **solo per uso personale, non si vende né si pubblica** (regole del `README`).
+
 ## Fase 4–5 — scala dei personaggi (dal più semplice al più complesso)
 
 Ogni livello si costruisce con **entrambi i metodi** (Edit Mode e Sculpt) finché lo richiedono i livelli 1–2; dal livello 3 scegli tu il metodo e motivi la scelta. Si passa al livello successivo solo con la prova pratica superata.
