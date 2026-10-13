@@ -7,7 +7,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 | Fase | Contenuto | Prova finale | Stato |
 |---|---|---|---|
 | 0 | Laboratorio: ambiente, Blender installato, cartelle | Blender si avvia e il primo file è salvato | 🟨 |
-| 1 | Fondamenti: interfaccia, navigazione, trasformazioni, Edit Mode, extrude/inset/bevel/loop cut, salvataggio | Piccolo oggetto completo, salvato e presentato | 🟨 L01 ✅ · L02 ✅ · L03 da preparare |
+| 1 | Fondamenti: interfaccia, navigazione, trasformazioni, Edit Mode, extrude/inset/bevel/loop cut, salvataggio | Piccolo oggetto completo, salvato e presentato | 🟨 L01 ✅ · L02 ✅ · L03 in corso |
 | 2 | Modellazione poligonale: hard surface, Mirror/Array/Solidify/Subdivision, normali, topologia, unità | 3 oggetti di difficoltà crescente a misure reali | ⬜ |
 | 3 | Materiali e rendering: PBR, luci a tre punti, HDRI, camera, Cycles/Eevee, denoise | Render di prodotto valutato | ⬜ |
 | 4 | Organico, due metodi in parallelo: **box modeling in Edit Mode** (Subdivision Surface, Mirror, modifica proporzionale) e **Sculpt Mode** (volumi primari, silhouette, proporzioni, anatomia, dettagli), più retopology. Scala di personaggi in 5 livelli (vedi sotto) | Livelli 1–2 consegnati con entrambi i metodi | ⬜ |
@@ -28,7 +28,7 @@ Stato: ✅ superata · 📘 materiali pronti · ⬜ da preparare
 |---|---|---|
 | L01 | Interfaccia, navigazione, selezione, G/R/S, salvataggio | ✅ |
 | L02 | Edit Mode, Extrude/Inset/Loop Cut/Bevel, Apply Scale, mesh chiusa | ✅ |
-| L03 | Collezioni, gerarchie, unità, riferimenti, salvataggio e backup; piccolo oggetto completo presentato | ⬜ |
+| L03 | Collezioni, gerarchie, unità, riferimenti, salvataggio e backup; piccolo oggetto completo presentato | 📘 |
 
 ### Fase 2 — Modellazione poligonale
 

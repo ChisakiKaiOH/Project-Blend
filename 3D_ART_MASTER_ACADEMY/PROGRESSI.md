@@ -17,6 +17,7 @@
 |---|---|---|---|---|
 | 2026-10-11 | L01 Interfaccia e navigazione | L01 completata: autonoma B e Parte C superate | 10/10 | Posizioni, scale e rotazioni esatte; versionamento v01-v03 corretto. Nota: il riferimento del Toro nella Parte C/guidata era sbagliato (tutor), corretto |
 | 2026-10-13 | L02 Edit Mode e modellazione base | L02 completata: guidata, autonoma, riparazione e bevel superati | 9/10 | Quattro file perfetti. Punto perso solo nella diagnosi scritta (risposte 2, 4 e 6 imprecise) |
+| 2026-10-13 | L03 Collezioni, gerarchie, unità, presentazione | in corso | — | Dispensa e materiali pronti; attesa consegna |
 
 ## Difficoltà ricorrenti
 
