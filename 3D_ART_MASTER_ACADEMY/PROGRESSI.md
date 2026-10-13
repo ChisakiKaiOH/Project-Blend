@@ -9,14 +9,14 @@
 | Edit Mode, selezione, Loop Cut, Extrude, Inset con valori numerici, Apply Scale | L02 guidata 10/10 (`L02_guidata_v02.blend`) e autonoma 10/10 (`L02_autonoma_v02.blend`) | 10/10 | ✅ acquisita |
 | Riparazione di mesh (buco, vertici sciolti, normali) | L02 Parte C: 6/6 con script (`L02_riparata_v01.blend`) | 10/10 | ✅ acquisita |
 | Diagnosi scritta di una mesh difettosa | L02 Parte C, risposte scritte | 7/10 | 🟨 da consolidare (terminologia e causa principale) |
-| Bevel (`Ctrl`+`B`) | nessuna prova consegnata (il cubo di prova è stato eliminato) | — | ⏳ da dimostrare |
+| Bevel (`Ctrl`+`B`) | L02 mini-prova: Tavolino con 12 spigoli del piano smussati, 2 segmenti, 5 mm; 10/10 controlli, mesh chiusa (`consegne_L02_bevel_v02.blend`) | 10/10 | ✅ acquisita |
 
 ## Lezioni completate
 
 | Data | Lezione | Modalità | Voto | Note |
 |---|---|---|---|---|
 | 2026-10-11 | L01 Interfaccia e navigazione | L01 completata: autonoma B e Parte C superate | 10/10 | Posizioni, scale e rotazioni esatte; versionamento v01-v03 corretto. Nota: il riferimento del Toro nella Parte C/guidata era sbagliato (tutor), corretto |
-| 2026-10-13 | L02 Edit Mode e modellazione base | guidata, autonoma e riparazione superate; diagnosi scritta; Bevel da dimostrare | 9/10 | Tre file perfetti (10/10, 10/10, 6/6). Punti persi nella diagnosi scritta (risposte 2, 4 e 6 imprecise) |
+| 2026-10-13 | L02 Edit Mode e modellazione base | L02 completata: guidata, autonoma, riparazione e bevel superati | 9/10 | Quattro file perfetti. Punto perso solo nella diagnosi scritta (risposte 2, 4 e 6 imprecise) |
 
 ## Difficoltà ricorrenti
 
