@@ -8,7 +8,7 @@ Nessuna durata è promessa: si avanza quando la prova pratica di ogni fase è su
 |---|---|---|---|
 | 0 | Laboratorio: ambiente, Blender installato, cartelle | Blender si avvia e il primo file è salvato | 🟨 |
 | 1 | Fondamenti: interfaccia, navigazione, trasformazioni, Edit Mode, extrude/inset/bevel/loop cut, salvataggio | Piccolo oggetto completo, salvato e presentato | ✅ L01 · L02 · L03 (casetta presentata) |
-| 2 | Modellazione poligonale: hard surface, Mirror/Array/Solidify/Subdivision, normali, topologia, unità | 3 oggetti di difficoltà crescente a misure reali | 🟨 L04 ✅ · L05 da preparare |
+| 2 | Modellazione poligonale: hard surface, Mirror/Array/Solidify/Subdivision, normali, topologia, unità | 3 oggetti di difficoltà crescente a misure reali | 🟨 L04 ✅ · L05 materiali pronti |
 | 3 | Materiali e rendering: PBR, luci a tre punti, HDRI, camera, Cycles/Eevee, denoise | Render di prodotto valutato | ⬜ |
 | 4 | Organico, due metodi in parallelo: **box modeling in Edit Mode** (Subdivision Surface, Mirror, modifica proporzionale) e **Sculpt Mode** (volumi primari, silhouette, proporzioni, anatomia, dettagli), più retopology. Scala di personaggi in 5 livelli (vedi sotto) | Livelli 1–2 consegnati con entrambi i metodi | ⬜ |
 | 5 | Personaggio completo: scheda, riferimenti, blockout, scultura, materiali, presentazione. Livelli 3–5 della scala, metodo a scelta motivata | Personaggio finito | ⬜ |
@@ -35,7 +35,7 @@ Stato: ✅ superata · 📘 materiali pronti · ⬜ da preparare
 | N. | Argomento | Stato |
 |---|---|---|
 | L04 | Modificatori Mirror, Array, Solidify | ✅ |
-| L05 | Subdivision Surface, controllo degli spigoli | ⬜ |
+| L05 | Subdivision Surface, controllo degli spigoli | 📘 |
 | L06 | Normali e shading | ⬜ |
 | L07 | Topologia pulita: quad, triangoli, poli, flusso degli spigoli | ⬜ |
 | L08 | Misure reali, precisione dimensionale, applicazione dei modificatori | ⬜ |

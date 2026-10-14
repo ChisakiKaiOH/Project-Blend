@@ -47,3 +47,10 @@ Si aggiorna a ogni lezione. Ordine alfabetico.
 | Solidify | Modificatore che dà spessore a una superficie. Richiede Scale 1, Even Thickness e un Offset adatto alle normali. |
 | Even Thickness | Opzione di Solidify che mantiene costante lo spessore negli angoli. |
 | Array | Modificatore che crea copie a distanza regolare. Nel modo Relative l'Offset è un multiplo della dimensione dell'oggetto. |
+| Subdivision Surface | Modificatore che divide ogni quad in 4 e addolcisce la forma. La superficie liscia approssima la gabbia (non passa per i suoi vertici). |
+| Gabbia (cage) | La mesh di base, a pochi quad, che controlla la superficie liscia. |
+| Levels Viewport / Render | Quante volte Subdivision divide la mesh: uno per la vista di lavoro, uno per il render. Ogni livello quadruplica le facce. |
+| Anello di supporto (support loop) | Anello di spigoli vicino a uno spigolo vivo: lo mantiene netto sotto Subdivision. Più è vicino, più lo spigolo è netto. |
+| Inset Individual | Opzione di Inset che dà una cornice a ogni faccia separatamente: crea supporti su tutti gli spigoli di un cubo chiuso. |
+| Crease | Valore 0–1 su uno spigolo (`Shift`+`E`): 1 lo mantiene vivo sotto Subdivision. L'effetto dipende dai Levels. |
+| Shade Smooth / Shade Flat | Ombreggiatura delle facce: Smooth fa variare la luce con continuità, Flat dà un colore per faccia. Non cambia la forma. |
