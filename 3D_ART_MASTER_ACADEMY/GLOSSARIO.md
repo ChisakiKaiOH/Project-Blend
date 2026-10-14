@@ -40,3 +40,10 @@ Si aggiorna a ogni lezione. Ordine alfabetico.
 | Unità Blender (BU) | Unità interna di Blender. Con Unit Scale 0.001, 1 BU = 1 mm. |
 | Unit Scale | Fattore che trasforma le BU in metri. 0.001 = lavorare in millimetri. |
 | Immagine di riferimento | Empty con un'immagine, usato come guida per modellare. Non compare nel render. |
+| Modificatore (modifier) | Operazione applicata a una mesh senza cambiare i suoi vertici originali (non distruttiva). |
+| Stack dei modificatori | Elenco dei modificatori di un oggetto, calcolati dall'alto verso il basso: l'ordine conta. |
+| Apply (modificatore) | Trasforma il risultato di un modificatore in geometria vera e lo toglie dallo stack. Irreversibile. |
+| Mirror | Modificatore che riflette la mesh rispetto a un piano passante per l'origine: si modella solo metà. |
+| Solidify | Modificatore che dà spessore a una superficie. Richiede Scale 1, Even Thickness e un Offset adatto alle normali. |
+| Even Thickness | Opzione di Solidify che mantiene costante lo spessore negli angoli. |
+| Array | Modificatore che crea copie a distanza regolare. Nel modo Relative l'Offset è un multiplo della dimensione dell'oggetto. |
