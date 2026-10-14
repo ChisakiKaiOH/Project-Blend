@@ -15,7 +15,7 @@
 | Riparazione: vertici doppi (`M` → By Distance) | L03 Parte C: tutti e tre gli oggetti riparati, 3/3 (`L03_diagnosi_riparata_v03.blend`) | 10/10 | ✅ acquisita |
 | Mirror, Solidify e Array in sequenza guidata | L04 guidata 13/13 controlli (`L04_guidata_v02.blend`, caricato sulla radice di `main`) | 10/10 | ✅ acquisita |
 | Correzione di uno stack di modificatori (ordine, scala, Merge) | L04 Parte C: 3/3 (`L04_stack_riparato_v02.blend`) | 10/10 | ✅ acquisita |
-| Modellare in autonomia con Mirror + Solidify + Array | L04 Parte B: v02 11/13 su copia con nome corretto; v03 8/13 (Scale ≠ 1 usata per forzare le dimensioni, mesh di partenza ancora una lastra spessa, 6 corpi, volume 10512 mm³) | — | ⏳ da dimostrare |
+| Modellare in autonomia con Mirror + Solidify + Array | L04 Parte B: v02 11/13 su copia con nome corretto; v03 8/13 (Scale ≠ 1 usata per forzare le dimensioni); v04 12/13 su copia con nome corretto (soluzione valida con pareti verticali + Solidify, volume 8424 esatto; mancano nome `Cornice` e quota Z: 3 mm invece di 0) | — | 🟨 quasi dimostrata |
 | Bevel (`Ctrl`+`B`) | L02 mini-prova: Tavolino con 12 spigoli del piano smussati, 2 segmenti, 5 mm; 10/10 controlli, mesh chiusa (`consegne_L02_bevel_v02.blend`) | 10/10 | ✅ acquisita |
 
 ## Lezioni completate
@@ -31,5 +31,5 @@
 
 - **Precisione nel descrivere i difetti di una mesh:** termini generici ("faccia esterna", "non lette in stampa") al posto di termini verificabili ("faccia frontale", "mesh non chiusa: lo slicer non distingue dentro e fuori"). Da esercitare nelle prossime lezioni scrivendo le risposte con termini della dispensa.
 - **Spiegare il perché (causa → conseguenza):** per tre volte (L02 domanda 6, L03 frase finale, L04 Parte C punto 3) hai risposto con etichette o frasi circolari ("non stampabile perché errata") invece di spiegare il meccanismo. Esempio del formato richiesto: "Un modello non chiuso non si stampa perché lo slicer non distingue dentro e fuori". Da esercitare con una frase di spiegazione in ogni lezione.
-- **Attenzione ai refusi nei nomi** (1 caso: `Caa_Tetto`). I nomi esatti servono a controlli e script: rileggili prima di consegnare.
+- **Nomi degli oggetti** (3 casi: `Caa_Tetto` in L03; `Vaschetta` e `Cube` al posto di `Cornice` in L04). I nomi esatti servono a controlli e script: rileggi la tabella dei requisiti prima di consegnare.
 - **Correggere il sintomo invece della causa** (L04 Parte B, v03): per far tornare le dimensioni hai scalato l'oggetto (Scale 0.962, 0.953, 0.751) invece di correggere la geometria. Con la scala sbagliata lo spessore reale delle pareti cambia: va corretto a monte.
