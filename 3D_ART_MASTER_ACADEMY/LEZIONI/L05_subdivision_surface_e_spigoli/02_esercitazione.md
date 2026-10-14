@@ -25,9 +25,9 @@ Salva sempre con nomi versionati (`_v01`, `_v02`, …) in `consegne/`. **Non mod
 4. **Verifica:** Scale 1, il cubo poggia sul pavimento.
 
 ### A2. Subdivision senza supporti
-1. Con **Blocco** selezionato: `Ctrl` + `2`. Nel pannello Modifiers compare **Subdivision** con **Levels Viewport 2**.
+1. Con **Blocco** selezionato: Properties → scheda **Modifiers** → `Add Modifier → Generate → Subdivision Surface`. Imposta **Levels Viewport** a `2` e **Render** a `3`. (Scorciatoia `Ctrl` + `2` con il mouse sulla viewport: sul tuo PC non ha funzionato, quindi usa il metodo manuale.)
 2. Il cubo è diventato una forma simile a una sfera. È normale: dispensa 2.2.
-3. Imposta **Render** a `3` (`Ctrl` + `2` cambia solo il livello della Viewport).
+3. Controlla che **Render** sia `3` (il valore predefinito è 2).
 
 ### A3. Misura sulla copia (prima del rimedio)
 1. `Shift` + `D`, clic destro. Sulla copia: menu del modificatore → **Apply**.
@@ -54,7 +54,7 @@ Object Mode, **Blocco** selezionato: menu **Object → Shade Smooth**.
 
 ### A8. Il secondo blocco, con il Crease
 1. Collezione **Modello** attiva, `Shift` + `C`, `Add → Mesh → Cube`. Dimensions `40, 40, 40`, `Ctrl` + `A` → **Scale**. Location `70`, `0`, `20`. Rinomina **Blocco_crease**.
-2. `Ctrl` + `2` e **Render** `3`.
+2. Aggiungi il modificatore come in A2: **Levels Viewport** `2`, **Render** `3`.
 3. `Tab`, modo **Edge**, `A`. `Shift` + `E`, scrivi `0.5`, `Enter`.
 4. Per vedere i crease: Overlays (in Edit Mode) → **Crease**.
 5. `Tab`. Menu **Object → Shade Smooth**.

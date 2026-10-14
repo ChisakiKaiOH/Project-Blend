@@ -26,7 +26,8 @@ Alla fine saprai:
 - Il modificatore è **non distruttivo**, come in L04: la mesh di base resta piccola e modificabile.
 
 ### 2.1 Aggiungerlo
-- `Add Modifier → Generate → Subdivision Surface`, oppure con l'oggetto selezionato `Ctrl` + `1…5`: imposta quel livello e **aggiunge il modificatore se manca** (`Ctrl` + `0` = livello 0).
+- `Add Modifier → Generate → Subdivision Surface` (metodo da usare).
+- Nel keymap predefinito esiste anche la scorciatoia `Ctrl` + `1…5` (imposta il livello e aggiunge il modificatore se manca), ma sul PC dell'utente **non ha funzionato**: non farci affidamento.
 - Valori predefiniti verificati sulla 5.0.1: **Levels Viewport 1**, **Render 2**.
 - **Levels Viewport** = quello che vedi mentre lavori; **Render** = quello usato nel render finale. Nelle esercitazioni del corso: **Viewport 2, Render 3**.
 - Nel pannello i due campi sono **Levels** (Viewport) e **Render**; c'è anche **Optimal Display** (mostra solo gli spigoli della gabbia, non cambia la forma). Per ora non toccare le impostazioni avanzate.
