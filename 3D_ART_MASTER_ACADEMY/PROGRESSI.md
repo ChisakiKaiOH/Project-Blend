@@ -27,5 +27,5 @@
 ## Difficoltà ricorrenti
 
 - **Precisione nel descrivere i difetti di una mesh:** termini generici ("faccia esterna", "non lette in stampa") al posto di termini verificabili ("faccia frontale", "mesh non chiusa: lo slicer non distingue dentro e fuori"). Da esercitare nelle prossime lezioni scrivendo le risposte con termini della dispensa.
-- **Spiegare il perché (causa → conseguenza):** per due volte (L02 domanda 6, L03 frase finale) hai elencato etichette senza spiegare perché una mesh difettosa non si stampa. Esempio del formato richiesto: "Un modello non chiuso non si stampa perché lo slicer non distingue dentro e fuori". Da esercitare con una frase di spiegazione in ogni lezione.
+- **Spiegare il perché (causa → conseguenza):** per tre volte (L02 domanda 6, L03 frase finale, L04 Parte C punto 3) hai risposto con etichette o frasi circolari ("non stampabile perché errata") invece di spiegare il meccanismo. Esempio del formato richiesto: "Un modello non chiuso non si stampa perché lo slicer non distingue dentro e fuori". Da esercitare con una frase di spiegazione in ogni lezione.
 - **Attenzione ai refusi nei nomi** (1 caso: `Caa_Tetto`). I nomi esatti servono a controlli e script: rileggili prima di consegnare.
