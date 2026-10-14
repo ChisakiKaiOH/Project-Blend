@@ -13,6 +13,9 @@
 | Render semplice in Eevee e salvataggio del PNG | L03 `L03_casetta_render_v01.png` 1600×900, casa intera, con ombre | 9/10 | ✅ acquisita |
 | Riparazione: normali invertite e faccia interna | L03 Parte C: Oggetto_A e Oggetto_B corretti (`L03_diagnosi_riparata_v02.blend`) | — | ✅ acquisita |
 | Riparazione: vertici doppi (`M` → By Distance) | L03 Parte C: tutti e tre gli oggetti riparati, 3/3 (`L03_diagnosi_riparata_v03.blend`) | 10/10 | ✅ acquisita |
+| Mirror, Solidify e Array in sequenza guidata | L04 guidata 13/13 controlli (`L04_guidata_v02.blend`, caricato sulla radice di `main`) | 10/10 | ✅ acquisita |
+| Correzione di uno stack di modificatori (ordine, scala, Merge) | L04 Parte C: 3/3 (`L04_stack_riparato_v02.blend`) | 10/10 | ✅ acquisita |
+| Modellare in autonomia con Mirror + Solidify + Array | L04 Parte B: 11/13 su copia con nome corretto; 6 corpi e volume 8845 mm³ (Solidify applicato a una lastra già spessa; barra sinistra 6,5 mm) | — | ⏳ da dimostrare |
 | Bevel (`Ctrl`+`B`) | L02 mini-prova: Tavolino con 12 spigoli del piano smussati, 2 segmenti, 5 mm; 10/10 controlli, mesh chiusa (`consegne_L02_bevel_v02.blend`) | 10/10 | ✅ acquisita |
 
 ## Lezioni completate
@@ -22,7 +25,7 @@
 | 2026-10-11 | L01 Interfaccia e navigazione | L01 completata: autonoma B e Parte C superate | 10/10 | Posizioni, scale e rotazioni esatte; versionamento v01-v03 corretto. Nota: il riferimento del Toro nella Parte C/guidata era sbagliato (tutor), corretto |
 | 2026-10-13 | L02 Edit Mode e modellazione base | L02 completata: guidata, autonoma, riparazione e bevel superati | 9/10 | Quattro file perfetti. Punto perso solo nella diagnosi scritta (risposte 2, 4 e 6 imprecise) |
 | 2026-10-14 | L03 Collezioni, gerarchie, unità, presentazione | L03 completata: guidata, autonoma e riparazione superate | 9/10 | Guidata 9, autonoma 10, riparazione 10, render 9. Punti persi: refuso `Caa_Tetto` e frase causale finale assente. Chiude la Fase 1 |
-| 2026-10-14 | L04 Modificatori: Mirror, Solidify, Array | in corso | — | Dispensa e materiali pronti; attesa consegna |
+| 2026-10-14 | L04 Modificatori: Mirror, Solidify, Array | guidata e Parte C superate; Parte B da rifare; frasi causali da riscrivere | in sospeso | File caricati per errore sulla radice di `main`, non in `consegne/` |
 
 ## Difficoltà ricorrenti
 
