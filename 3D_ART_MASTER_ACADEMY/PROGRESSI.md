@@ -20,7 +20,7 @@
 | Subdivision Surface con supporti (Inset Individual) e Crease 0,5 | L05 guidata: `L05_guidata_v02.blend`, 11/12 controlli come consegnato; con il nome `Blocco_crease` corretto su una copia di prova sarebbe 13/13 (nome consegnato: `Blocco_Crease`) | 9/10 | ✅ acquisita |
 | Riparazione di Subdivision (supporti, Crease, Shade Smooth) | L05 Parte C: 3/3 (`L05_blocchi_riparati_v02.blend`) | 10/10 | ✅ acquisita |
 | Diagnosi scritta con frase causale (L05) | `Risposte.txt`: struttura «Poiché…, …, quindi…» corretta; Blocco_3 con conseguenza falsa ("in stampa non risulterà liscio") e meccanismi mancanti | 7/10 | 🟨 da consolidare |
-| Subdivision autonoma: sapone con incavo | L05 Parte B: `L05_autonoma_v02.blend` 12/16 (outer edges senza supporti, incavo con pareti inclinate) | — | 🟨 da ripetere (v03) |
+| Subdivision autonoma: sapone con incavo | L05 Parte B: v02 12/16 (spigoli esterni senza supporti, incavo con pareti inclinate); v03 11/16 (Subdivision applicato: base di 546 vertici e nessun modificatore, Flat Shading, estremità sui lati corti arrotondate su circa 20 mm, volume 65 133) | — | 🟨 da ripetere (v04) |
 
 ## Lezioni completate
 
@@ -30,7 +30,7 @@
 | 2026-10-13 | L02 Edit Mode e modellazione base | L02 completata: guidata, autonoma, riparazione e bevel superati | 9/10 | Quattro file perfetti. Punto perso solo nella diagnosi scritta (risposte 2, 4 e 6 imprecise) |
 | 2026-10-14 | L03 Collezioni, gerarchie, unità, presentazione | L03 completata: guidata, autonoma e riparazione superate | 9/10 | Guidata 9, autonoma 10, riparazione 10, render 9. Punti persi: refuso `Caa_Tetto` e frase causale finale assente. Chiude la Fase 1 |
 | 2026-10-14 | L04 Modificatori: Mirror, Solidify, Array | L04 completata: guidata 13/13, riparazione 3/3, autonoma superata alla v05 (13/13) | 8/10 | Parte B superata dopo tre revisioni (nome, scala forzata, quota Z). Frasi causali ancora con errori di contenuto (Vaschetta_3). Soluzione originale della cornice con pareti verticali |
-| 2026-10-15 | L05 Subdivision Surface e spigoli | **In corso:** guidata 11/12 (nome), riparazione 3/3, autonoma 12/16 (da ripetere) | — | Voto finale dopo la Parte B |
+| 2026-10-15 | L05 Subdivision Surface e spigoli | **In corso:** guidata 11/12 (nome), riparazione 3/3, autonoma v03 11/16 (da ripetere) | — | Voto finale dopo la Parte B |
 
 ## Difficoltà ricorrenti
 
@@ -40,3 +40,4 @@
 - **Correggere il sintomo invece della causa** (L04 Parte B, v03): per far tornare le dimensioni hai scalato l'oggetto (Scale 0.962, 0.953, 0.751) invece di correggere la geometria. Con la scala sbagliata lo spessore reale delle pareti cambia: va corretto a monte.
 - **Frasi causali, contenuto (L05):** struttura corretta, ma Blocco_3: Flat/Smooth cambia solo il calcolo della luce, non la geometria stampata; e mancano il meccanismo (cosa fa il programma) e un numero misurabile (33,58 mm, volume 100%).
 - **Controllare tutto il perimetro (L05 Parte B):** supporti messi sull'incavo ma non sui 12 spigoli esterni della scatola: il modello si restringe (78,75 × 48,75 × 19,76 mm).
+- **Applicare il modificatore (L05 Parte B, v03):** Subdivision applicato nonostante la consegna dicesse di lasciarlo attivo: la base non è più modificabile e i requisiti sulla mesh di partenza non sono più verificabili.
