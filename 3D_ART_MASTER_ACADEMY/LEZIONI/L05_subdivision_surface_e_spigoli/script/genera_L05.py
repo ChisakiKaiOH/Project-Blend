@@ -84,3 +84,14 @@ o1 = nuovo_oggetto("Blocco_1", scatola(40, 40, 40), cm, (-70, 0, 20), (0.9, 0.4,
 o2 = nuovo_oggetto("Blocco_2", scatola(40, 40, 40, inset=4, crease=1.0), cm, (0, 0, 20), (0.4, 0.9, 0.4, 1)); sub(o2)               # crease 1 ovunque
 o3 = nuovo_oggetto("Blocco_3", scatola(40, 40, 40, inset=4), cm, (70, 0, 20), (0.4, 0.4, 0.9, 1), smooth=False); sub(o3)             # ombreggiatura flat
 bpy.ops.wm.save_as_mainfile(filepath=os.path.join(out, "L05_blocchi_sbagliati.blend"))
+
+# ---------- file obiettivo per la Parte B: scena di partenza + sapone finito (mesh già valutata, senza modificatore) ----------
+reset(); cm = scena(cam_loc=(60, -150, 130), target=(60, 0, 8))
+tmp = nuovo_oggetto("tmp", sapone_bm(), cm, (0, 0, 10)); sub(tmp)
+dg = bpy.context.evaluated_depsgraph_get(); me2 = bpy.data.meshes.new_from_object(tmp.evaluated_get(dg), depsgraph=dg)
+bpy.data.objects.remove(tmp)
+for p in me2.polygons: p.use_smooth = True
+me2.name = "Obiettivo_Sapone"
+co = bpy.data.collections.new("Obiettivo"); bpy.context.scene.collection.children.link(co)
+ob = bpy.data.objects.new("Obiettivo_Sapone", me2); co.objects.link(ob); ob.location = (120, 0, 10); colora(ob, (0.3, 0.8, 0.5, 1))
+bpy.ops.wm.save_as_mainfile(filepath=os.path.join(out, "L05_obiettivo_B.blend"))

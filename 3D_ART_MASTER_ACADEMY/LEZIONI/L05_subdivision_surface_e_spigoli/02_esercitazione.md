@@ -80,7 +80,9 @@ Salva come `consegne/L05_guidata_v02.blend` e scrivimi "consegna guidata L05". L
 
 ## Parte B — Modalità autonoma: il sapone (prova di superamento)
 
-**Consegna:** apri di nuovo `materiali/L05_start.blend`, salvalo come `consegne/L05_autonoma_v01.blend` e costruisci un **sapone** 80 × 50 × 20 mm, con gli spigoli arrotondati e un **incavo** per l'etichetta sulla faccia superiore. Riferimento: `materiali/L05_riferimento_B.png`.
+**Consegna:** apri `materiali/L05_obiettivo_B.blend` e salvalo come `consegne/L05_autonoma_v01.blend` (o la versione successiva). Contiene la scena di partenza e, nella collezione **Obiettivo**, il sapone finito (`Obiettivo_Sapone`, verde, a X = 120 mm): è **solo la forma**, già calcolata, senza modificatore e senza la mesh di base. Costruisci il tuo **Sapone** nella collezione **Modello**, a X = 0, e confrontalo con l'obiettivo (misura entrambi su una copia con Apply; guarda il profilo di bordi e incavo in vista ortografica, Top e Front/Right). Riferimento visivo: `materiali/L05_riferimento_B.png`.
+
+**Prima di consegnare elimina la collezione Obiettivo** (e il suo oggetto): nel file consegnato deve restare solo il tuo lavoro.
 
 **Requisiti (misurati dallo script sulla mesh dopo il modificatore). Spunta riga per riga prima di caricare:**
 

@@ -97,7 +97,7 @@ Non modificare i file in `materiali/`. Salva con nomi versionati in `consegne/`.
 
 ## PARTE B — Autonoma: il Sapone
 
-File: `consegne/L05_autonoma_v01.blend` (parti da `L05_start.blend`). **Non ti do i passaggi**: usa questa scheda per controllarti.
+File: `consegne/L05_autonoma_v01.blend` (parti da `materiali/L05_obiettivo_B.blend`, che contiene il sapone finito `Obiettivo_Sapone` a X = 120 come modello da confrontare). **Non ti do i passaggi**: usa questa scheda per controllarti.
 
 ### B1. Controlli DURANTE il lavoro
 | ☐ | Controllo | Come lo verifichi |
@@ -122,6 +122,7 @@ File: `consegne/L05_autonoma_v01.blend` (parti da `L05_start.blend`). **Non ti d
 | ☐ | `Shift`+`D` → **Apply** sulla copia → Dimensions | **80 × 50 × 20 mm** (i supporti tengono le facce piatte) |
 | ☐ | Forma a occhio | Spigoli arrotondati (non gonfia, non a spigolo vivo) |
 | ☐ | Bordo dell'incavo | Netto, non sfumato; fondo piatto |
+| ☐ | Confronta con `Obiettivo_Sapone` (vista Top e Right, ortografica): profilo di bordi e incavo | Stessa forma |
 | ☐ | Elimina la copia | Nessun oggetto extra |
 
 ### B3. Requisiti prima di caricare — PARTE B (tutti)
@@ -140,6 +141,7 @@ File: `consegne/L05_autonoma_v01.blend` (parti da `L05_start.blend`). **Non ti d
 | ☐ | 11 | **Shade Smooth** su tutte le facce |
 | ☐ | 12 | Chiuso, **1 corpo**, nessun vertice doppio (nessuna copia rimasta nella scena) |
 | ☐ | 13 | Unità in mm |
+| ☐ | — | **Collezione Obiettivo eliminata** dal file consegnato |
 | ☐ | — | Salvato `consegne/L05_autonoma_v01.blend` (o v02, v03…) e caricato |
 
 <div style="page-break-after: always"></div>
