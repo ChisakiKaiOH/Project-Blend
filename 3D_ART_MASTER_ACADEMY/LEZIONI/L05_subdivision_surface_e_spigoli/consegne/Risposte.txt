@@ -1,0 +1,16 @@
+1.Difetto:il nome (scegli tra: nessun supporto, Crease troppo forte,ombreggiatura Flat, livelli sbagliati, o una definizione tua);
+Blocco_1: Mancanza di Insert
+Blocco_2: Troppi Crease, troppo forti
+Blocco_3: Ombreggiatura Flat
+2.Come l'hai riconosciuto: un numero o un'immagine (Dimensions sulla copia con Apply, Statistics, overlay Crease, aspetto della superficie);
+Blocco_1: Troppo rotondo
+Blocco_2: Overlay Crease
+Blocco_3: Aspetto della superficie
+3.Perché succede: una frase nel formato "Poiché [cosa succede nel programma], [effetto], quindi [conseguenza misurabile]";
+Blocco_1: Poiché il comando insert non è stato utilizzato, il cubo risulta completamente rotondo, quindi non risulta un cubo smussato, ma una sfera
+Blocco_2: Poiché il comando crease è stato applicato su tutto l'oggetto e non solo sugli spigoli necessari, il cubo risulta completamente spigoloso, quindi non risulta correttamente smussato
+Blocco_3: Poiché non è stato applicato il comando Smooth, il cubo risulta tutti segmentato, quindi in fase di stampa non risulterà liscio.
+4.Correzione:il comando o l'impostazione che usi.
+Blocco_1: Comando insert, individual
+Blocco_2: Riduzione del Crease tramite edit mode, transform, riduco a 0 Mean Crease in Edges Data
+Blocco_3: Tasto destro, shade Smooth
