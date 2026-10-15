@@ -65,7 +65,7 @@
 | ☐ | Spiegare in frasi causa → conseguenza senza errori di contenuto |
 **Prova:** guidata 13/13, riparazione 3/3, autonoma 13/13 (v05). Data: ________
 
-### L05 — Subdivision Surface e controllo degli spigoli 📘
+### L05 — Subdivision Surface e controllo degli spigoli 🟨 in corso
 | ☐ | Competenza |
 |---|---|
 | ☐ | Aggiungere Subdivision; Levels Viewport 2 / Render 3 |
