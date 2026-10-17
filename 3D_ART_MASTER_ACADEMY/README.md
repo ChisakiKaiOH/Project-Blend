@@ -59,3 +59,9 @@ LEZIONI/L01_interfaccia_e_navigazione/
 - [`ROADMAP.md`](ROADMAP.md): percorso completo e stato.
 - [`PROGRESSI.md`](PROGRESSI.md): registro lezioni, voti, competenze.
 - [`GLOSSARIO.md`](GLOSSARIO.md): termini tecnici incontrati.
+
+## Registro e schede stampabili
+
+- `REGISTRO.md` / `REGISTRO.pdf`: registro delle attività per blocchi (date, esiti, voto finale), aggiornato dal tutor a ogni lezione.
+- `LEZIONI/<cartella>/scheda_registro_LXX.pdf`: scheda stampabile della lezione (argomenti, esiti, voti) da ricopiare a mano.
+- Per rigenerare: `python3 LEZIONI/_strumenti/genera_registro.py` e poi `crea_pdf.sh`.
