@@ -64,4 +64,4 @@ LEZIONI/L01_interfaccia_e_navigazione/
 
 - `REGISTRO.md` / `REGISTRO.pdf`: registro delle attività per blocchi (date, esiti, voto finale), aggiornato dal tutor a ogni lezione.
 - `LEZIONI/<cartella>/scheda_registro_LXX.pdf`: scheda stampabile della lezione (argomenti, esiti, voti) da ricopiare a mano.
-- Per rigenerare: `python3 LEZIONI/_strumenti/genera_registro.py` e poi `crea_pdf.sh`.
+- Per rigenerare tutto (e copiare il registro in ogni cartella lezione): `bash LEZIONI/_strumenti/aggiorna_registro.sh`.
